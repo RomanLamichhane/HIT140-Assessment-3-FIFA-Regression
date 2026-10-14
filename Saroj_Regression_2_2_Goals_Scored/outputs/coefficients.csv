@@ -1,0 +1,9 @@
+predictor,coefficient
+pre_avg_goals_for,-0.04796096308353277
+pre_goal_difference_per_game,0.3342834709091434
+pre_recent3_avg_goals_for,-0.04796096308353287
+pre_recent3_points_per_game,-0.2261901038057657
+opponent_pre_avg_goals_against,0.10795074790668642
+opponent_pre_goal_difference_per_game,-0.04122606735997293
+opponent_pre_recent3_avg_goals_against,0.10795074790668635
+opponent_pre_recent3_goal_difference,-0.041226067359972876

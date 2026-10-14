@@ -1,0 +1,12 @@
+LR2.2 ENHANCED ANALYSIS
+Rows=208, train=166, test=42, predictors=8
+Train matches=83, test matches=21
+Validation: 5-fold TimeSeriesSplit over match IDs; both team rows stay together.
+Selected by lowest mean CV RMSE: Ridge(alpha=10.0)
+Baseline OLS holdout: R2=0.0318, MAE=0.9796, RMSE=1.2926
+Selected holdout: R2=0.0376, MAE=0.9840, RMSE=1.2887
+Bootstrap 95% CI - MAE: [0.7601, 1.2597]
+Bootstrap 95% CI - RMSE: [0.9286, 1.6926]
+Bootstrap 95% CI - mean residual: [-0.1823, 0.5741]
+RMSE improvement (positive is better)=0.0039
+MAE improvement (positive is better)=-0.0044

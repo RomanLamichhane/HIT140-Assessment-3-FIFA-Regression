@@ -1,0 +1,38 @@
+{
+  "rows": 208,
+  "train_rows": 166,
+  "test_rows": 42,
+  "train_match_ids": 83,
+  "test_match_ids": 21,
+  "predictor_count": 8,
+  "cv_folds": 5,
+  "selected_model": "Ridge(alpha=10.0)",
+  "baseline_holdout": {
+    "model": "OLS baseline",
+    "r2": 0.03180040284978247,
+    "mae": 0.979552445701069,
+    "rmse": 1.2925741981284409
+  },
+  "selected_holdout": {
+    "model": "Ridge(alpha=10.0)",
+    "r2": 0.037598756147450896,
+    "mae": 0.9839729017759906,
+    "rmse": 1.2886979019443283
+  },
+  "selected_holdout_bootstrap_95_ci": {
+    "mae_95_ci": [
+      0.760129164839426,
+      1.2596899003478208
+    ],
+    "rmse_95_ci": [
+      0.9286192068958812,
+      1.6925801749019385
+    ],
+    "mean_residual_95_ci": [
+      -0.18233061589699656,
+      0.5740845866798195
+    ]
+  },
+  "rmse_improvement_vs_baseline": 0.00387629618411256,
+  "mae_improvement_vs_baseline": -0.004420456074921586
+}

@@ -1,0 +1,6 @@
+Rows: 208
+Train rows: 166
+Test rows: 42
+R2: 0.0318
+MAE: 0.9796
+RMSE: 1.2926
