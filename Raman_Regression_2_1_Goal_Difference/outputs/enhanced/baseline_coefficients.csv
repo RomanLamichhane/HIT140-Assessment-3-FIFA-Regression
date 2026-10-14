@@ -1,0 +1,9 @@
+predictor,coefficient
+pre_avg_goals_for_diff,-0.129800773604404
+pre_avg_goals_against_diff,-0.21836236640952342
+pre_goal_difference_per_game_diff,0.08856159280511947
+pre_recent3_goal_difference_diff,0.08856159280511966
+pre_recent3_points_per_game_diff,0.20240296044637862
+pre_games_played_diff,0.0
+host_advantage,1.1783264548679198
+is_knockout,-0.12497623803618266

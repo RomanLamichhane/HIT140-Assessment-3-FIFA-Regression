@@ -1,0 +1,11 @@
+LR2.1 ENHANCED ANALYSIS
+Rows=104, train=83, test=21, predictors=8
+Validation: 5-fold TimeSeriesSplit performed on training data only.
+Selected by lowest mean CV RMSE: ElasticNet(alpha=0.5,l1_ratio=0.8)
+Baseline OLS holdout: R2=-0.5984, MAE=1.3970, RMSE=1.9359
+Selected holdout: R2=-0.3536, MAE=1.3925, RMSE=1.7815
+Bootstrap 95% CI - MAE: [0.9495, 1.8876]
+Bootstrap 95% CI - RMSE: [1.2235, 2.2888]
+Bootstrap 95% CI - mean residual: [-1.5796, -0.2716]
+RMSE improvement (positive is better)=0.1544
+MAE improvement (positive is better)=0.0045

@@ -1,0 +1,36 @@
+{
+  "rows": 104,
+  "train_rows": 83,
+  "test_rows": 21,
+  "predictor_count": 8,
+  "cv_folds": 5,
+  "selected_model": "ElasticNet(alpha=0.5,l1_ratio=0.8)",
+  "baseline_holdout": {
+    "model": "OLS baseline",
+    "r2": -0.5983525412947335,
+    "mae": 1.3970213764059825,
+    "rmse": 1.935874782603482
+  },
+  "selected_holdout": {
+    "model": "ElasticNet(alpha=0.5,l1_ratio=0.8)",
+    "r2": -0.3535828527601983,
+    "mae": 1.392484339574797,
+    "rmse": 1.7814900320058367
+  },
+  "selected_holdout_bootstrap_95_ci": {
+    "mae_95_ci": [
+      0.9495439481633328,
+      1.8876049464830478
+    ],
+    "rmse_95_ci": [
+      1.2234539364466,
+      2.2888052021700225
+    ],
+    "mean_residual_95_ci": [
+      -1.579636655120735,
+      -0.271629315692864
+    ]
+  },
+  "rmse_improvement_vs_baseline": 0.15438475059764523,
+  "mae_improvement_vs_baseline": 0.004537036831185448
+}
