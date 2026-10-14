@@ -1,0 +1,21 @@
+PASS - LR2.1 has 104 rows
+PASS - LR2.2 has 208 rows
+PASS - LR2.1 has exactly 8 predictors
+PASS - LR2.2 has exactly 8 predictors
+PASS - Exactly 4 shared predictor concepts
+PASS - LR2.1 predictors have no missing values
+PASS - LR2.2 predictors have no missing values
+PASS - LR2.1 match IDs unique
+PASS - LR2.2 has 2 rows per match
+
+Shared predictor concepts:
+- average goals scored
+- average goals conceded
+- goal difference per game
+- recent points per game
+
+Leakage control:
+- Every rolling/recent statistic is computed before the current match is added to team history.
+- Current-match goals are targets only, never explanatory variables.
+- First-match historical features use a documented neutral zero baseline.
+- Knockout status and host status are known before kickoff.

@@ -1,0 +1,13 @@
+LR2.1 Goal Difference
+  Selected model: ElasticNet(alpha=0.5,l1_ratio=0.8)
+  Baseline: R2=-0.5984, MAE=1.3970, RMSE=1.9359
+  Selected: R2=-0.3536, MAE=1.3925, RMSE=1.7815
+  RMSE improvement=0.1544; MAE improvement=0.0045
+
+LR2.2 Goals Scored
+  Selected model: Ridge(alpha=10.0)
+  Baseline: R2=0.0318, MAE=0.9796, RMSE=1.2926
+  Selected: R2=0.0376, MAE=0.9840, RMSE=1.2887
+  RMSE improvement=0.0039; MAE improvement=-0.0044
+
+Important: LR2.1 and LR2.2 predict different targets, so MAE/RMSE should be interpreted within each task rather than directly compared across tasks.

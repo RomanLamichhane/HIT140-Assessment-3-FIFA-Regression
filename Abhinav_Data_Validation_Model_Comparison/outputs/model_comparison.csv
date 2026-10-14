@@ -1,0 +1,3 @@
+model,R2,MAE,RMSE
+LR2.1 Goal Difference,-0.5984,1.397,1.9359
+LR2.2 Goals Scored,0.0318,0.9796,1.2926

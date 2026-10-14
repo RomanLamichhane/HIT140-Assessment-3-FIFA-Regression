@@ -1,0 +1,4 @@
+LR2.1 Goal Difference: R2=-0.5984, MAE=1.3970, RMSE=1.9359
+LR2.2 Goals Scored: R2=0.0318, MAE=0.9796, RMSE=1.2926
+
+Note: MAE and RMSE are measured on different targets, so compare them within each model rather than directly between models.
